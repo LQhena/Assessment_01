@@ -1,0 +1,332 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8246932400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user launches \"chrome\" and navigates to the Adactin web page \"http://adactinhotelapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 17
+                },
+                {
+                  "val": "http://adactinhotelapp.com",
+                  "offset": 64
+                }
+              ],
+              "location": "MyStepdefs.a_user_launches_and_navigates_to_the_Adactin_web_page(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6722528100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user enters the \"AutoTestb\" and \"84JLRY\" and clicks login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AutoTestb",
+                  "offset": 19
+                },
+                {
+                  "val": "84JLRY",
+                  "offset": 35
+                }
+              ],
+              "location": "MyStepdefs.a_user_enters_the_and_and_clicks_login(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 919730100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.getBookingData()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Successful booking of a hotel",
+        "description": "",
+        "id": "book-hotel-feature;successful-booking-of-a-hotel",
+        "after": [
+          {
+            "result": {
+              "duration": 1668957300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.a_user_clicks_logout()"
+            }
+          },
+          {
+            "result": {
+              "duration": 80750100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.a_user_is_successfully_logged_out()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3053560500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a user populates fields in the search page and clicks continue",
+            "match": {
+              "location": "MyStepdefs.a_user_populates_fields_in_the_search_page_and_clicks_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1423887300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a user selects a hotel from the selection page and click continue",
+            "match": {
+              "location": "MyStepdefs.a_user_selects_a_hotel_from_the_selection_page_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7924135200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a user populates the book with valid data and clicks confirm",
+            "match": {
+              "location": "MyStepdefs.a_user_populates_the_book_with_valid_data_and_clicks_confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28900900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a order is generated and the booking is successful",
+            "match": {
+              "location": "MyStepdefs.a_order_is_generated_and_the_booking_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user logs in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6646858400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user launches \"chrome\" and navigates to the Adactin web page \"http://adactinhotelapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 17
+                },
+                {
+                  "val": "http://adactinhotelapp.com",
+                  "offset": 64
+                }
+              ],
+              "location": "MyStepdefs.a_user_launches_and_navigates_to_the_Adactin_web_page(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6130400200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user enters the \"AutoTestb\" and \"84JLRY\" and clicks login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AutoTestb",
+                  "offset": 19
+                },
+                {
+                  "val": "84JLRY",
+                  "offset": 35
+                }
+              ],
+              "location": "MyStepdefs.a_user_enters_the_and_and_clicks_login(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 15,
+            "value": "#@ignore"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 42761300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.getBookingData()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Delete an itinerary",
+        "description": "",
+        "id": "book-hotel-feature;delete-an-itinerary",
+        "after": [
+          {
+            "result": {
+              "duration": 1750165900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.a_user_clicks_logout()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110594900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepdefs.a_user_is_successfully_logged_out()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3184802400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicks on Booked Itinerary",
+            "match": {
+              "location": "MyStepdefs.clicks_on_Booked_Itinerary()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2371198400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters the Order number for an existing order and clicks on search",
+            "match": {
+              "location": "MyStepdefs.userEntersTheOrderNumberForAnExistingOrderAndClicksOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232065200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "a user clicks on cancel",
+            "match": {
+              "location": "MyStepdefs.a_user_clicks_on_cancel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4547800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "a confirm cancel popup message appears",
+            "match": {
+              "location": "MyStepdefs.a_confirm_cancel_popup_message_appears()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6042600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a user clicks on ok",
+            "match": {
+              "location": "MyStepdefs.a_user_clicks_on_ok()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3895101300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "booking is successfully cancelled",
+            "match": {
+              "location": "MyStepdefs.booking_is_successfully_cancelled()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book hotel Feature",
+    "description": "",
+    "id": "book-hotel-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/BookHotel.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run1"
+      }
+    ]
+  }
+]
